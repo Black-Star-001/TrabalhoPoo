@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadastarAluno.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Nome"/>
+		<Entry x:Name="NomeEnrty" Placeholder="Digite o nome do Aluno"/>
+		<Entry x:Name="CpfEnrty" Placeholder="Digite o cpf do Aluno"/>
+		<Entry x:Name="IdadeEnrty" Placeholder="Digite a idade do Aluno"/>
+		<Entry x:Name="SexoEnrty" Placeholder="Digite o Sexo do Aluno"/>
+		<Entry x:Name="NascimentoEnrty" Placeholder="Digite a data de nascimento do Aluno"/>
+
+		<Button Text="Salvar" Clicked="OnSalvarClicked"/>
+
+		<Label x:Name="ResultadoLabel"/>
+    </StackLayout>
+    
+    
+</ContentPage>
